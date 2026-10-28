@@ -32,14 +32,18 @@ More in [`examples/`](examples/before-after.md).
 
 ## Install
 
-**Claude Code**
+**Claude Code** (one command)
 ```
-mkdir -p ~/.claude/skills/readme-glow-up
-cp SKILL.md ~/.claude/skills/readme-glow-up/SKILL.md
+mkdir -p ~/.claude/skills/readme-glow-up && curl -L https://raw.githubusercontent.com/YOURUSERNAME/readme-glow-up/main/SKILL.md -o ~/.claude/skills/readme-glow-up/SKILL.md
+```
+
+**Or clone the repo**
+```
+git clone https://github.com/YOURUSERNAME/readme-glow-up ~/.claude/skills/readme-glow-up
 ```
 
 **Claude app**
-Zip the `readme-glow-up` folder and upload it in Settings, under Skills.
+Tap **Code**, then **Download ZIP** on this page. Upload the file in Settings, under Skills.
 
 ## Use
 
