@@ -34,16 +34,17 @@ More in [`examples/`](examples/before-after.md).
 
 **Claude Code** (one command)
 ```
-mkdir -p ~/.claude/skills/readme-glow-up && curl -L https://raw.githubusercontent.com/YOURUSERNAME/readme-glow-up/main/SKILL.md -o ~/.claude/skills/readme-glow-up/SKILL.md
+mkdir -p ~/.claude/skills/readme-glow-up && curl -L https://raw.githubusercontent.com/Pulkit14/readme_glow-up/main/SKILL.md -o ~/.claude/skills/readme-glow-up/SKILL.md
 ```
 
 **Or clone the repo**
 ```
-git clone https://github.com/YOURUSERNAME/readme-glow-up ~/.claude/skills/readme-glow-up
+git clone https://github.com/Pulkit14/readme_glow-up ~/.claude/skills/readme-glow-up
 ```
 
 **Claude app**
 Tap **Code**, then **Download ZIP** on this page. Upload the file in Settings, under Skills.
+
 
 ## Use
 
