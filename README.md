@@ -32,18 +32,12 @@ More in [`examples/`](examples/before-after.md).
 
 ## Install
 
-**Claude Code** (one command)
-```
-mkdir -p ~/.claude/skills/readme-glow-up && curl -L https://raw.githubusercontent.com/Pulkit14/readme_glow-up/main/SKILL.md -o ~/.claude/skills/readme-glow-up/SKILL.md
-```
+**Terminal (Claude Code):**
+npx skills add Pulkit14/readme_glow-up@readme-glow-up
 
-**Or clone the repo**
-```
-git clone https://github.com/Pulkit14/readme_glow-up ~/.claude/skills/readme-glow-up
-```
 
-**Claude app**
-Tap **Code**, then **Download ZIP** on this page. Upload the file in Settings, under Skills.
+**No terminal? Paste this into Claude:**
+> Install the skill at github.com/Pulkit14/readme_glow-up and glow up this README.
 
 
 ## Use
